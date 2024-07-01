@@ -25,7 +25,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "postinstall": "npm install react-scripts",
+    "postinstall": "if [ ! -d 'node_modules/react-scripts' ]; then npm install react-scripts; fi",
     "start": "react-scripts start",
     "server": "nodemon server.js",
     "build": "react-scripts build",
