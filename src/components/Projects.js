@@ -3,7 +3,9 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import imga from "../assets/img/image.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import imgal from "../assets/img/t.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -12,28 +14,24 @@ export const Projects = () => {
   const projects = [
     {
       title: "Blood Management System",
-      description: "MERN Stack",
+      description: "Mern Stack",
       imgUrl: projImg1,
     },
     {
       title: "Chat App",
-      description: "MERN Stack",
+      description: "Real time",
       imgUrl: projImg2,
     },
-    {
-      title: "Weather App",
-      description: "Backend Development",
-      imgUrl: projImg3,
-    },
+    
     {
       title: "Task-Manager App",
       description: "Backend Development",
-      imgUrl: projImg1,
+      imgUrl: imga,
     },
     {
-      title: "To-do List",
-      description: "Backend Development",
-      imgUrl: projImg2,
+      title: "EasyPG",
+      description: "A rental space fro students and professionals",
+      imgUrl: imgal,
     }
   ];
 
